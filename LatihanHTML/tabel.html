@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Membuat Tabel Secara Biasa</h1>
+    <table>
+        <tr>
+            <th>Negara</th>
+            <th>Ibu Kota</th>
+            <th>Populasi</th>
+        </tr>
+
+        <tr>
+            <td>Tiongkok</td>
+            <td>Beijing</td>
+            <td>15000000</td>
+        </tr>
+
+        <tr>
+            <td>Indonesia</td>
+            <td>Jakarta</td>
+            <td>10000000</td>
+        </tr>
+    </table>
+
+    <h1>Membuat Tabel Dengan Semantic</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Negara</th>
+                <th>Ibu Kota</th>
+                <th>Populasi</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Tingkok</td>
+                <td>Beijing</td>
+                <td>150000000</td>
+            </tr>
+            <tr>
+                <td>Indonesia</td>
+                <td>Jakarta</td>
+                <td>100000000</td>
+            </tr>
+            <tfoot>
+                <th>Total Negara</th>
+                <th>Total Populasi Dunia</th>
+            </tfoot>
+        </tbody>
+    </table>
+
+    <h1>Membuat Tabel Expert</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <!-- Rowspan mengambil row colspan mengambil column  -->
+                <th rowspan="2">Tahun</th> 
+                <th colspan="3">Morris 2010 <sub>[i]</sub></th>
+            </tr>
+            <tr>
+                <th>Populasi</th>
+                <th>Nama </th>
+                <th>Lokasi Sekarang</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">7000 SM</td>
+                <td rowspan="3">1000 </td>
+                <td>Beidah</td>
+                <td>Yordania</td>
+            </tr>
+            <tr>
+                <td>Beidah</td>
+                <td>Yordania</td>
+            </tr>
+            <tr>
+                <td>Beidah</td>
+                <td>Yordania</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

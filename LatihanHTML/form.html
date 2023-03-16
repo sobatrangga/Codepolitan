@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+</head>
+<!-- "for" pada label hanya untuk accesibility saja -->
+<!-- Fungsi "name" pada bagian input untuk menampung data / variable -->
+<body>
+    <h1>Formulir Isian</h1>
+    <form action="/daftar" method="post">
+        <div>
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" placeholder="Nama" id="nama" name="nama">
+        </div>
+        <div>
+            <label for="tanggalLahir">Tanggal Lahir</label>
+            <input type="date" id="tanggalLahir" name="tanggalLahir">
+        </div>
+        <label for="email">Email Pribadi</label>
+        <input type="email" placeholder="Email" id="email" name="email">
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" id="password" name="password">
+        
+        <button type="button">Button Biasa</button>
+        <button type="submit">Button Kirim</button>
+    </form>
+
+
+    <form action="/order" >
+        <h1>Pesanan</h1>
+        <div>
+            <label for="pilihan">Pilih Baju</label>
+            <input type="radio" id="pilihan" name="baju" value="Kemeja"><label for="nama">Kemeja</label>
+            <input type="radio" id="pilihan" name="baju" value="Kaos"><label for="nama">Kaos</label>
+        </div>
+
+        <div>
+            <label for="ukuran">Ukuran</label>
+            <select name="dropdown" id="ukuran">
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+                <option value="xl">XL</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="pertanyaan">Sesuai Pesanan</label>
+            <input type="checkbox" id="pertanyaan" name="pertanyaan" value="ya">
+        </div>
+
+        <div>
+            <label for="notes">catatan</label>
+            <textarea name="catatan" id="notes" cols="20" rows="10"></textarea>
+        </div>
+
+        <button type="submit">Button Kirim</button>
+    </form>
+
+    <form action="valid">
+        <div>
+            <input type="text" required minlength="5" name="input" maxlength="7">
+            <input type="number" name="number" id="number" min="4" max="7">
+            <button type="submit">kirim</button>
+        </div>
+    </form>
+
+
+</body>
+</html>
