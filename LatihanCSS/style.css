@@ -1,0 +1,35 @@
+    .heading{
+            /* RGBA menambahkan warna dengan opacitynya */
+            color: rgba(86, 43, 226, 0.682);
+            background-color: rgb(234, 63, 97);
+    }
+        
+    .button{
+        padding: 12px 24px;
+        border: none;
+        border-radius: 28px;
+        background-color: crimson;
+        color: white;
+    }
+
+.color{
+    background-color: blueviolet;
+    color: white;
+}
+
+.manipulation{
+    /* Untuk responsive menggunakan ukuran yg relative contohnya em,rem,vw,vh,% */
+    font-size: 1.5em; 
+    text-align: start;
+    font-weight: 900;
+    text-decoration: underline #000;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    line-height: 20px;
+    letter-spacing: 10px;
+}
