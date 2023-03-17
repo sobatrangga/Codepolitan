@@ -24,7 +24,7 @@ h1, h2, h3{
 /* Descendant Selector */
 .jokes p{
     color : white;
-    background-color: brown;;
+    background-color: brown;
 }
 
 /* Direct Descendant hanya 1 turunan saja */
