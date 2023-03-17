@@ -1,0 +1,74 @@
+/* Selector Universal Menggunakan "*" */
+
+*{
+    background-color: blueviolet;
+}
+
+/* Selector Element Menggunakan Tag */
+/* Teknik Grouping */
+h1, h2, h3{
+    background-color: black;
+    color: white;
+}
+
+/* Selector Attribute Id */
+#list2{
+    color : white;
+}
+
+/* Selector Attribute Class */
+.mark{
+    background-color: yellow;
+}
+
+/* Descendant Selector */
+.jokes p{
+    color : white;
+    background-color: brown;;
+}
+
+/* Direct Descendant hanya 1 turunan saja */
+.jokes > p {
+    color: yellow;
+    font-size: 32px;
+}
+
+.jokes > p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.jokes:nth-of-type(2){
+    background-color: aquamarine;
+}
+
+/* Ajdacent Selector Element yang bersebelahan */
+
+a + button{
+    background-color: yellow;
+    color: black;
+}
+
+/* Attribute Selector */
+input[type="text"]{
+    color: red;
+}
+
+/* Pseudo Classes */
+button:hover{
+    background-color: blue;
+    color: white;
+}
+
+/* PSEUDO ELEMENT */
+section h3::first-letter{
+    font-size: 34px;
+}
+
+section p::first-line{
+    color: yellow;
+}
+
+section h3::after{
+    content: '*';
+}
