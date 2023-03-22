@@ -1,0 +1,52 @@
+*, body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: green;
+    width: 90%;
+    height: 200px;
+    margin: 10px auto;
+    text-align: center;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    border-radius: 28px;
+    background-color: aquamarine;
+    width: 40%;
+    height: 100px;
+    text-align: center;
+}
+
+main{
+    background-color: orange;
+    width: 90%;
+    height: 400px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    background-color: rgb(232, 204, 153);
+    width: 500px;
+    height: 300px;
+    border-radius: 28px;
+}
+
+footer{
+    background-color: aquamarine;
+    width: 90%;
+    height: 200px;
+    margin: 8px auto;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
