@@ -1,0 +1,43 @@
+body{
+    background-color: beige;
+}
+
+#navbar{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+#navbar .nav-link{
+    color: black;
+}
+#navbar .nav-link:hover{
+    color: blue;
+    font-weight: 500;
+}
+
+#navbar .navbar-brand{
+    color: black;
+    font-size: 1.5 rem;
+    font-weight: bold;
+}
+
+.blurb h2{
+    color: #354354;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p{
+    font-weight: 100;
+    font-size: 1.25 rem;
+    line-height: 2;
+}
+
+.content{
+    margin: 100px 0;
+}
+
+.navbar.scrolled{
+    background-color: rgb(163, 163, 244);
+    transition: background 500ms;
+}

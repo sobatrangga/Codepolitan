@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Boostrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-light fixed-bottom">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Navbar</a>
+            <!-- data-bs-target harus sama dengan id pada navbar-collapse -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav me-auto">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link disabled">Disabled</a>
+                </div>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+
+            </div>
+        </div>       
+    </nav>
+
+    <div class="container">
+        <h1 class="display-3">Hi, Boostrap</h1>
+        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, nam ducimus illo obcaecati, maiores odio ex facere voluptas itaque numquam, rem consequuntur repellat soluta similique? Vitae excepturi accusantium molestiae mollitia!
+        Repudiandae repellat perspiciatis veritatis fuga vitae ipsa perferendis voluptates ea culpa saepe enim, voluptate esse nulla! Saepe earum quam sequi assumenda repellendus cupiditate officia. Ratione explicabo dolorum veritatis labore pariatur.
+        Maxime iure, voluptatibus quaerat laborum minima architecto soluta, quisquam consectetur autem quia, expedita nobis voluptas corrupti qui. Nisi, dicta assumenda. Necessitatibus, iste! Itaque officia sint veritatis delectus id ea iste.
+        Officia, fuga autem tempora nam aperiam officiis modi ad deleniti ipsa eum, nemo odit recusandae molestiae explicabo quam nihil obcaecati facilis, ab quae harum exercitationem magni? Nesciunt qui odio reiciendis</p>
+        
+        <div class="mt-4">
+            <button type="button" class="btn btn-outline-dark btn-lg">
+                Notifications <span class="badge text-bg-secondary">4</span>
+            </button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success disabled">Success</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <div class="d-grid gap-2">
+                <button class="btn btn-primary" type="button">Button</button>
+                <button class="btn btn-primary" type="button">Button</button>
+            </div>
+        </div>
+
+        <figure class="text-center">
+            <blockquote class="blockquote">
+                <p>A well-known quote, contained in a blockquote element.</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+            </figcaption>
+        </figure>
+
+        <button type="button" class="btn btn-outline-info position-relative">
+            Alert
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                99+
+                <span class="visually-hidden">unread messages</span>
+            </span>
+        </button>
+
+        <div class="btn-group" role="group" aria-label="Basic outlined example">
+            <button type="button" class="btn btn-outline-primary">Left</button>
+            <button type="button" class="btn btn-outline-primary">Middle</button>
+            <button type="button" class="btn btn-outline-primary">Right</button>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col col-xs-1 bg-black text-white p-4 m-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita iste nobis accusantium iusto quasi accusamus illum architecto illo blanditiis nihil quisquam tenetur soluta, pariatur nam consequatur officiis labore cumque obcaecati?
+            </div>
+            <div class="col col-xs-1 col bg-black text-white p-4 m-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita iste nobis accusantium iusto quasi accusamus illum architecto illo blanditiis nihil quisquam tenetur soluta, pariatur nam consequatur officiis labore cumque obcaecati?
+            </div>
+            <div class="col col-xs-1 bg-black text-white p-4 m-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita iste nobis accusantium iusto quasi accusamus illum architecto illo blanditiis nihil quisquam tenetur soluta, pariatur nam consequatur officiis labore cumque obcaecati?
+            </div>
+        </div>
+        <h2 class="display">Responsive Grids</h2>
+        <div class="row mt">
+            <div class="col-md-6 col-lg-4 p-2 bg-primary text-white ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium velit quisquam, voluptatem, rerum et, quo vero modi debitis beatae libero quae! Eius qui ad veniam asperiores totam optio dolor libero!
+            </div>
+            <div class="col-md-6 col-lg-4 p-2 bg-primary text-white ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium velit quisquam, voluptatem, rerum et, quo vero modi debitis beatae libero quae! Eius qui ad veniam asperiores totam optio dolor libero!
+            </div>
+            <div class="col-md-6 col-lg-4 p-2 bg-primary text-white ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium velit quisquam, voluptatem, rerum et, quo vero modi debitis beatae libero quae! Eius qui ad veniam asperiores totam optio dolor libero!
+            </div>
+            <div class="col-md-6 col-lg-4 p-2 bg-primary text-white ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium velit quisquam, voluptatem, rerum et, quo vero modi debitis beatae libero quae! Eius qui ad veniam asperiores totam optio dolor libero!
+            </div>
+        </div>
+
+        <h2 class="display-2">Form</h2>
+        <div class="row">
+            <div class="mt-1">
+                <label for="name" class="form-label h6 fw-normal">Masukan Nama</label>
+                <input type="text" name="firstName" id="name" class="form-control">
+                <div class="form-text">Masukan nama full anda</div>
+            </div>
+            <div class="mt-5">
+                <label for="name">Masukan Nama</label>
+                <input type="text" name="firstName" id="name">
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                viewBox="0 0 16 16">
+                <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+            </svg>
+            </span>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                aria-describedby="basic-addon1">
+        </div>
+
+    </div>
+    
+
+
+
+
+
+
+    <!-- Script Boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
