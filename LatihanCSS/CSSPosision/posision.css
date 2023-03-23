@@ -1,0 +1,41 @@
+/* Permain pada posision tergantung dengan top,bottom,right,left */
+body{
+    /* Overflow untuk menyembunyikan */
+    overflow-x: hidden;
+    height: 1200px;
+}
+
+.container{
+    position: relative;
+}
+
+.item-1{
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    z-index: -1;
+}
+
+.item-2{
+    /* posisinya berada diatas tapi tidak berubah */
+    position: relative;
+    top: 50px;
+}
+
+.item-5{
+    position: sticky;
+    top: 0;
+}
+
+.item-6{
+    top: 0;
+    position: fixed;
+}
+
+
+.item-10{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    right: 0;
+}
