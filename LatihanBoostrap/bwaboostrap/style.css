@@ -1,0 +1,80 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-item a{
+    font-size: 16px;
+}
+
+.nav-item a:hover{
+    color: #ff9900;
+    text-decoration: underline;
+}
+
+.btn-primary{
+    background-color: #ff9900;
+    border: 1px solid #ff9900;
+    padding: 15px 41px;
+    font-size: 16px;
+}
+
+.btn-primary:hover{
+    background-color: #dc8401;
+    border: 1px solid #ff9900;
+}
+
+.hero p{
+    font-weight: regular;
+}
+
+.primary{
+    background-color: #ff9900;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+}
+
+.primary:hover{
+    background-color: #dc8401;
+    color: white;
+}
+
+.secondary{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-size: 16px;
+    padding: 12px 24px;
+}
+
+.secondary:hover{
+    background-color: black;
+    color: white;
+}
+
+.btn-secondary{
+    background-color: white;
+    color: #ff9900;
+    border: none;
+    padding: 15px 41px;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.btn-secondary:hover{
+    color: #ff9900;
+    border: 1px solid #ff9900;
+    background-color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .primary{
+        margin-top: 12px;
+    }
+    .btn-primary{
+        margin: 0;
+    }
+    .btn-secondary{
+        margin-top: 12px;
+    }
+}
