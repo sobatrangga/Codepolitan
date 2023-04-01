@@ -1,0 +1,21 @@
+
+[
+    {
+        "nama": "Ani",
+        "umur": 20,
+        "alamat": "Jl. Ahmad Yani No. 10",
+        "kota": "Jakarta"
+    },
+    {
+        "nama": "Budi",
+        "umur": 22,
+        "alamat": "Jl. Gajah Mada No. 15",
+        "kota": "Surabaya"
+    },
+    {
+        "nama": "Cindy",
+        "umur": 21,
+        "alamat": "Jl. Sudirman No. 20",
+        "kota": "Bandung"
+    }
+]
